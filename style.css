@@ -1,0 +1,253 @@
+/* Estilo del body */
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilo del header */
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #343a40;
+	color: #fff;
+	z-index: 9999;
+}
+
+header .navbar-brand {
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+header .navbar-nav .nav-link {
+	font-size: 1.1rem;
+	font-weight: 500;
+}
+
+/* Estilo de la sección de inicio */
+#inicio {
+	height: 100vh;
+	background-image: url('https://picsum.photos/id/1025/1920/1080');
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+}
+
+#inicio h1 {
+	font-size: 4rem;
+	font-weight: 600;
+	color: #fff;
+	text-shadow: 2px 2px 4px #000;
+}
+
+#inicio p {
+	font-size: 1.5rem;
+	color: #fff;
+	text-shadow: 2px 2px 4px #000;
+}
+
+/* Estilo de la sección de sobre mí */
+#sobre-mi {
+	background-color: #f8f9fa;
+	padding: 80px 0;
+}
+
+#sobre-mi h2 {
+	font-size: 3rem;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+#sobre-mi p {
+	font-size: 1.2rem;
+	line-height: 1.8;
+}
+
+/* Estilo de la sección de habilidades */
+#habilidades {
+	background-color: #fff;
+	padding: 80px 0;
+}
+
+#habilidades h2 {
+	font-size: 3rem;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+/* Estilo de la sección de experiencia */
+#experiencia {
+	background-color: #f8f9fa;
+	padding: 80px 0;
+}
+
+#experiencia h2 {
+	font-size: 3rem;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+#experiencia .timeline {
+	position: relative;
+	padding: 50px 0;
+}
+
+#experiencia .timeline:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 50%;
+	margin-left: -1px;
+	width: 2px;
+	background-color: #e9ecef;
+}
+
+#experiencia .timeline .timeline-item {
+	margin-bottom: 50px;
+	position: relative;
+}
+
+#experiencia .timeline .timeline-item:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 50%;
+	margin-left: -10px;
+	width: 20px;
+	height: 20px;
+	background-color: #fff;
+	border: 5px solid #e9ecef;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+#experiencia .timeline .timeline-item .timeline-content {
+	margin-left: 60px;
+	margin-top: 16px;
+	position: relative;
+}
+
+#experiencia .timeline .timeline-item .timeline-content h3 {
+	font-size: 1.8rem;
+	font-weight: 600;
+	margin-top: 0;
+}
+
+#experiencia .timeline .timeline-item .timeline-content h4 {
+	font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    }
+    
+    #experiencia .timeline .timeline-item .timeline-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    }
+    
+    /* Estilo de la sección de proyectos */
+    #proyectos {
+    background-color: #fff;
+    padding: 80px 0;
+    }
+    
+    #proyectos h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    }
+    
+    #proyectos .card {
+    border: none;
+    }
+    
+    #proyectos .card .card-body {
+    padding: 0;
+    }
+    
+    #proyectos .card-img-top {
+    height: 250px;
+    object-fit: cover;
+    }
+    
+    #proyectos .card:hover .card-img-top {
+    opacity: 0.7;
+    }
+    
+    #proyectos .card .card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    color: #fff;
+    transition: all 0.5s ease;
+    }
+    
+    #proyectos .card:hover .card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+    #proyectos .card .card-img-overlay h5 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    }
+    
+    #proyectos .card .card-img-overlay p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    }
+    
+    /* Estilo de la sección de contacto */
+    #contacto {
+    background-color: #343a40;
+    padding: 80px 0;
+    }
+    
+    #contacto h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #fff;
+    }
+    
+    #contacto .form-control {
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+    }
+    
+    #contacto .form-control:focus {
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+    box-shadow: none;
+    }
+    
+    #contacto .btn-primary {
+    background-color: #fff;
+    border-color: #fff;
+    color: #343a40;
+    }
+    
+    #contacto .btn-primary:hover {
+    background-color: #343a40;
+    border-color: #fff;
+    color: #fff;
+    }
+
+    label{
+        color: #fff;
+    }
+
+    @media screen and (max-width: 994px) {
+        /* Ocultar section con id="presentacion" */
+        #presentacion {
+            margin-top: 60px;
+        }
+    }   
+
+    .lead{
+        text-align: justify;
+    }

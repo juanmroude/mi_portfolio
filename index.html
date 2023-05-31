@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portafolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Estilos CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- Encabezado -->
+	<header class="bg-light">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<a class="navbar-brand" href="#">Mi Portafolio</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Inicio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#sobre-mi">Sobre mí</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#proyectos">Proyectos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contacto">Contacto</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<!-- Presentación -->
+	<section id="presentacion">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-6">
+					<h1 class="display-4 mb-3">¡Hola! Soy Juan</h1>
+					<p class="lead">
+                        Un desarrollador web creativo y apasionado por crear sitios web elegantes y efectivos.
+                    </p>
+					<a href="#contacto" class="btn btn-primary">Contáctame</a>
+				</div>
+				<div class="col-md-6">
+					<img src="img/avatar.png" alt="Desarrollador web" class="img-fluid">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Sobre mí -->
+	<section id="sobre-mi">
+		<div class="container">
+			<h2 class="text-center mb-4">Sobre mí</h2>
+			<div class="row">
+				<div class="col-md-6">
+					<p class="lead">
+                        Soy un apasionado por el diseño web y la programación. Con amplia experiencia en HTML, CSS y JavaScript, me encanta trabajar con tecnologías modernas como Bootstrap para crear sitios web visualmente atractivos y altamente funcionales. Además, tengo conocimientos básicos de backend como MySQL y PHP, lo que me permite crear aplicaciones web completas. 
+                    </p>
+				</div>
+				<div class="col-md-6">
+					<p class="lead">
+                        Además de trabajar en proyectos web, también disfruto impartir clases de informática y tecnología a estudiantes de diferentes edades y niveles. Como profesor, he desarrollado habilidades excepcionales de comunicación y adaptabilidad para asegurarme de que mis estudiantes comprendan y apliquen eficazmente los conceptos y habilidades que enseño. Estoy muy comprometido con el aprendizaje continuo y siempre busco mejorar mis habilidades y conocimientos en tecnología
+
+                    </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Proyectos -->
+<section id="proyectos">
+	<div class="container">
+		<h2 class="text-center mb-4">Proyectos</h2>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="card mb-4">
+					<img src="img/p1.png" class="card-img-top" alt="Proyecto 1">
+					<div class="card-body">
+						<h5 class="card-title">Proyecto 1</h5>
+						<p class="card-text">Descripción breve del proyecto. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae lorem euismod, scelerisque sapien vel, bibendum urna.</p>
+						<a href="#" class="btn btn-primary">Ver más</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4">
+					<img src="img/p2.png" class="card-img-top" alt="Proyecto 2">
+					<div class="card-body">
+						<h5 class="card-title">Proyecto 2</h5>
+						<p class="card-text">Descripción breve del proyecto. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae lorem euismod, scelerisque sapien vel, bibendum urna.</p>
+						<a href="#" class="btn btn-primary">Ver más</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4">
+					<img src="img/p3.png" class="card-img-top" alt="Proyecto 3">
+					<div class="card-body">
+						<h5 class="card-title">Proyecto 3</h5>
+						<p class="card-text">Descripción breve del proyecto. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae lorem euismod, scelerisque sapien vel, bibendum urna.</p>
+						<a href="#" class="btn btn-primary">Ver más</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Contacto -->
+<section id="contacto">
+	<div class="container">
+		<h2 class="text-center mb-4">Contacto</h2>
+		<div class="row">
+			<div class="col-md-6">
+				<form>
+					<div class="form-group">
+						<label for="nombre">Nombre</label>
+						<input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" required>
+					</div>
+					<div class="form-group">
+						<label for="correo">Correo electrónico</label>
+						<input type="email" class="form-control" id="correo" placeholder="Ingresa tu correo electrónico" required>
+					</div>
+					<div class="form-group">
+						<label for="mensaje">Mensaje</label>
+						<textarea class="form-control" id="mensaje" rows="5" placeholder="Ingresa tu mensaje" required></textarea>
+					</div>
+					<button type="submit" class="btn btn-primary">Enviar</button>
+				</form>
+
+			</div>
+			<div class="col-md-6">
+				<div class="card bg-light mb-4">
+					<div class="card-body">
+						<p>Si deseas contactarme, puedes hacerlo a través de mi correo electrónico:</p>
+						<h4 class="text-primary">juanmroude@gmail.com</h4>
+						<p>También puedes encontrarme en las siguientes redes sociales:</p>
+						<a href="#" class="btn btn-outline-primary m-1"><i class="fab fa-twitter"></i></a>
+						<a href="#" class="btn btn-outline-primary m-1"><i class="fab fa-facebook"></i></a>
+						<a href="#" class="btn btn-outline-primary m-1"><i class="fab fa-instagram"></i></a>
+						<a href="#" class="btn btn-outline-primary m-1"><i class="fab fa-linkedin"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-center py-3">
+	<p class="text-white">&copy; 2023 - Juan Roude</p>
+</footer>
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
